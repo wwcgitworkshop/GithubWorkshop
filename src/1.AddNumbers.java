@@ -8,8 +8,8 @@ class AddNumbers {
 
     public static void main (String[] args){
       // Test case 1
-      int a = 3;
-      int b = 4;
+      int a = 1;
+      int b = 2;
       int c  = addNumbers(a, b);
       System.out.println(c);
 
