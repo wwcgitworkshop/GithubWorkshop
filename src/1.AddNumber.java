@@ -1,7 +1,7 @@
 /*
  * Add two numbers a and b
  */
-class AddNumbers {
+class AddNumber {
     public static int addNumbers(int a, int b) {
         return a + b;
     }
