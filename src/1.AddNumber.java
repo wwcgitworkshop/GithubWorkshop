@@ -14,7 +14,7 @@ class AddNumber {
       System.out.println(c);
 
       // Test case 2
-      int a = 2;
+      int a = 1;
       int b = 5;
       int c  = addNumbers(a, b);
       System.out.println(c);
