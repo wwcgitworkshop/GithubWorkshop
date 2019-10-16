@@ -151,9 +151,9 @@ Merge the updates from Master:
    $ git merge master
 ```
 
-Push your branch to the remote 
+Push your branch to the remote: 
 ```bash
-   $ push -u origin <feature_yourname>
+   $ git push -u origin <feature_yourname>
 ```
 >**TIP:** You only need the *-u* command if your branch is not already upstream 
 
@@ -187,11 +187,8 @@ Push the merged branches to the remote:
 
 resolve merge conflicts
 
-delete your branch
+delete your branch:
 ```bash
    $ git push --delete origin <feature_yourname>
    $ git branch -d <feature_yourname>
 ```
-
-
-
