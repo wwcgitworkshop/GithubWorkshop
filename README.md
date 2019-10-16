@@ -139,7 +139,7 @@ Pull updates from the remote:
 ```bash
    $ git pull 
 ```
->**TIP:** *git pull* merges changes from the remote into your local copy. Use *git fetch* if you simply want to download the latest to keep track of what is going on.
+>**TIP:** *git pull* merges changes from the remote into your local copy. Use *git fetch* if you simply want to download the latest to keep track of what is going on. You will then need to merge to incorporate the updates from *fetch*.
 
 Checkout your local branch again:
 ```bash
