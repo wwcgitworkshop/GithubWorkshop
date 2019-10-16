@@ -71,6 +71,7 @@ Add your_name.txt to the repo
 ```bash
   $ git add . <your_name.txt>
 ```
+>TIP: *git add* stages your changes. You cannot commit your changes until you have first staged them.
 
 Check the status of your changes: 
 ```bash
@@ -81,6 +82,9 @@ Remove delete_me.txt from your repo:
 ```bash
   $ git rm delete_me.txt
   $ git status
+  $ git add . <your_name.txt>
+```
+
 ```
 Run a diff on the changes:
 *good practice is to run a diff before every commit*
@@ -147,9 +151,9 @@ Merge the updates from Master:
    $ git merge master
 ```
 
-Push your branch to the remote 
+Push your branch to the remote: 
 ```bash
-   $ push -u origin <feature_yourname>
+   $ git push -u origin <feature_yourname>
 ```
 >**TIP:** You only need the *-u* command if your branch is not already upstream 
 
@@ -183,11 +187,8 @@ Push the merged branches to the remote:
 
 resolve merge conflicts
 
-delete your branch
+delete your branch:
 ```bash
    $ git push --delete origin <feature_yourname>
    $ git branch -d <feature_yourname>
 ```
-
-
-
