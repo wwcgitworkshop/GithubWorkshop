@@ -71,6 +71,7 @@ Add your_name.txt to the repo
 ```bash
   $ git add . <your_name.txt>
 ```
+>TIP: *git add* stages your changes. You cannot commit your changes until you have first staged them.
 
 Check the status of your changes: 
 ```bash
@@ -81,6 +82,9 @@ Remove delete_me.txt from your repo:
 ```bash
   $ git rm delete_me.txt
   $ git status
+  $ git add . <your_name.txt>
+```
+
 ```
 Run a diff on the changes:
 *good practice is to run a diff before every commit*
