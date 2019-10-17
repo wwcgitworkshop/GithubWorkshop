@@ -70,11 +70,12 @@ Create a new file: **your_name.txt**
 
 Copy this into <your_name.txt> file:
 
-     <!---
-
-      Questions TBD 
-
-      -->
+     Your name:
+     Why you came to the workshop?
+     Is this your first event?
+     Favorite ice cream flavor?
+     What is the name of the person sitting to the right and left of you?
+     Do you want to contribute to open source in the future? 
 
 Add your_name.txt to the repo 
 ```bash
