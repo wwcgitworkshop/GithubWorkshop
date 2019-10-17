@@ -58,7 +58,8 @@ $ git help branch
 Create a new feature branch:
 ```bash
 $ git branch <feature_yourname>
-$ git checkout
+$ git checkout <feature_yourname>
+$ git branch -a
 ```
 *shorthand version*
 ```bash
