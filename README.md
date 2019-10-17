@@ -19,7 +19,8 @@ Clone the fork into your new folder:
 $ git clone https://github.com/<username>/GithubWorkshop
 
 ```
-![alt text](src/img/clone.png "Clone Repo"|width=896)
+
+<img src="src/img/clone.png" width="896">
 
 
 
