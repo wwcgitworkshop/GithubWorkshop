@@ -171,10 +171,17 @@ Push master to your origin
 
 ## Create your PR
 
+Go to your git hub and click 'pull request'
+
+<img src="src/img/pullrequest.png" width="400">
+
+Comapre changes submit your message
+
+
 
 resolve merge conflicts
 
-## Create your PR
+
 
 delete your branch:
 ```bash
