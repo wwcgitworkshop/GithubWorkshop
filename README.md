@@ -171,19 +171,21 @@ Push master to your origin
 
 ## Create your PR
 
-Go to your git hub and click 'pull request'
+Go to your github and click 'pull request'
 
 <img src="src/img/pullrequest.png" width="400">
 
-Comapre changes submit your message
 
+Comapre changes and submit your message
+
+<img src="src/img/pullrequest_message.png" width="400">
 
 
 resolve merge conflicts
 
 
+## Delete your branch
 
-delete your branch:
 ```bash
    $ git push --delete origin <feature_yourname>
    $ git branch -d <feature_yourname>
