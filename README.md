@@ -58,8 +58,9 @@ $ git help branch
 Create a new feature branch:
 ```bash
 $ git branch <feature_yourname>
-$ git checkout <feature_yourname>
 $ git branch -a
+$ git checkout <feature_yourname>
+
 ```
 *shorthand version*
 ```bash
@@ -91,15 +92,16 @@ Remove delete_me.txt from your repo:
 ```bash
   $ git rm delete_me.txt
   $ git status
-  $ git add . <your_name.txt>
+  $ git add . 
 ```
 
 ```
 Run a diff on the changes:
 *good practice is to run a diff before every commit*
+
 ```bash
    $ git diff
-```
+``` 
 Commit your changes: 
 *"Commit early and commit often"*
 ```bash
