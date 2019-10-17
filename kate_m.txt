@@ -1,9 +1,0 @@
- Your name: Kate Mitchell
- Why you came to the workshop? To learn about GIT
- Is this your first event? Nope
- Favorite ice cream flavor? salted caramel
- What is the name of the person sitting to the right and left of you? Marc and empty chair
- Do you want to contribute to open source in the future? Not really
-
- this is my new line
- 

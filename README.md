@@ -135,7 +135,7 @@ Stage your changes:
    $ git add .
    $ git status
 ```
->**TIP:**<br/>   
+>**TIP:**<br/>
 >*git add .* stages new files and modifications, without deletions<br/> 
 >*git add -A* stages all changes<br/> 
 >*git add -u* stages modifications and deletions, without new files<br/> 
@@ -175,13 +175,13 @@ Pull updates from the remote:
 ```
 >**TIP:** *git pull* merges changes from the remote into your local copy. Use *git fetch* if you simply want to download the latest to keep track of what is going on. You will then need to merge to incorporate the updates from *fetch*.
 
-Now merge your changes into master
+Now merge your changes into master:
 ```bash
   $ git merge <feature_yourname>
 
 ```
 
-Push master to your origin
+Push master to your origin:
 ```bash
    $ git push origin
 ```
@@ -198,10 +198,13 @@ Comapre changes and submit your message
 <img src="src/img/pullrequest_message.png" width="400">
 
 
-resolve merge conflicts
+Resolve any merge conflicts
+
+
 
 
 ## Delete your branch
+*Once your PR has been merged, you should delete your feature branch*
 
 ```bash
    $ git push --delete origin <feature_yourname>
