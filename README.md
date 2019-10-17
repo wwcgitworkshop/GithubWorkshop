@@ -20,7 +20,7 @@ $ git clone https://github.com/<username>/GithubWorkshop
 
 ```
 
-<img src="src/img/clone.png" width="896">
+<img src="src/img/clone.png" width="400">
 
 
 
