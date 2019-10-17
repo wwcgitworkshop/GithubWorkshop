@@ -128,6 +128,7 @@ Run a diff on the changes:
 
 Commit your changes: 
 ```bash
+   $ git add . 
    $ git commit
    $ git status
 ```
