@@ -136,9 +136,9 @@ Stage your changes:
    $ git status
 ```
 >**TIP:**<br/>   
->git add . stages new files and modifications, without deletions<br/> 
->git add -A stages all changes<br/> 
->git add -u stages modifications and deletions, without new files<br/> 
+>*git add .* stages new files and modifications, without deletions<br/> 
+>*git add -A* stages all changes<br/> 
+>*git add -u* stages modifications and deletions, without new files<br/> 
 
 
 Commit your changes: 
