@@ -70,35 +70,42 @@ Create a new file: **your_name.txt**
 
 Copy this into <your_name.txt> file:
 
-     <!---
-
-      Questions TBD 
-
-      -->
-
-Add your_name.txt to the repo 
-```bash
-  $ git add . <your_name.txt>
-```
->TIP: *git add* stages your changes. You cannot commit your changes until you have first staged them.
+     Your name:
+     Why you came to the workshop?
+     Is this your first event?
+     Favorite ice cream flavor?
+     What is the name of the person sitting to the right and left of you?
+     Do you want to contribute to open source in the future? 
 
 Check the status of your changes: 
 ```bash
    $ git status
 ``` 
+*Your file is not being track by git, we need to add it*
+
+Add your_name.txt to the repo:
+```bash
+  $ git add . <your_name.txt>
+  $ git status
+```
+>TIP: *git add* stages your changes. You cannot commit your changes until you have first staged them.
+
+Check the status again to see the staged file:
+```bash
+  $ git status
+```
 
 Remove delete_me.txt from your repo:
 ```bash
   $ git rm delete_me.txt
   $ git status
-  $ git add . <your_name.txt>
 ```
 
 ```
 Run a diff on the changes:
 *good practice is to run a diff before every commit*
 ```bash
-   $ git diff
+   $ git diff origin
 ```
 Commit your changes: 
 *"Commit early and commit often"*
@@ -121,8 +128,18 @@ Add a new line of text to your_name.txt
 Run a diff on the changes:
 ```bash
    $ git status
-   $ git diff
+   $ git diff origin
 ```
+Stage your changes: 
+```bash
+   $ git add .
+   $ git status
+```
+>**TIP:**<br/>
+>*git add .* stages new files and modifications, without deletions<br/> 
+>*git add -A* stages all changes<br/> 
+>*git add -u* stages modifications and deletions, without new files<br/> 
+
 
 Commit your changes: 
 ```bash
@@ -158,13 +175,13 @@ Pull updates from the remote:
 ```
 >**TIP:** *git pull* merges changes from the remote into your local copy. Use *git fetch* if you simply want to download the latest to keep track of what is going on. You will then need to merge to incorporate the updates from *fetch*.
 
-Now merge your changes into master
+Now merge your changes into master:
 ```bash
   $ git merge <feature_yourname>
 
 ```
 
-Push master to your origin
+Push master to your origin:
 ```bash
    $ git push origin
 ```
@@ -181,10 +198,13 @@ Comapre changes and submit your message
 <img src="src/img/pullrequest_message.png" width="400">
 
 
-resolve merge conflicts
+Resolve any merge conflicts
+
+
 
 
 ## Delete your branch
+*Once your PR has been merged, you should delete your feature branch*
 
 ```bash
    $ git push --delete origin <feature_yourname>
