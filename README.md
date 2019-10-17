@@ -130,8 +130,16 @@ Commit your changes:
    $ git status
 ```
 
-## Merge the master branch into your branch
+Push your branch to the remote: 
+```bash
+   $ git push -u origin <feature_yourname>
+```
+>**TIP:** You only need the *-u* command if your branch is not already upstream 
 
+
+
+
+## Merge your branch into master
 
 
 First review all the branches:
@@ -150,51 +158,23 @@ Pull updates from the remote:
 ```
 >**TIP:** *git pull* merges changes from the remote into your local copy. Use *git fetch* if you simply want to download the latest to keep track of what is going on. You will then need to merge to incorporate the updates from *fetch*.
 
-Checkout your local branch again:
+Now merge your changes into master
 ```bash
-   $ git checkout <feature_yourname>
+  $ git merge <feature_yourname>
+
 ```
 
-Merge the updates from Master:
+Push master to your origin
 ```bash
-   $ git merge master
+   $ git push origin
 ```
 
-Push your branch to the remote: 
-```bash
-   $ git push -u origin <feature_yourname>
-```
->**TIP:** You only need the *-u* command if your branch is not already upstream 
+## Create your PR
 
-## Merge your updates into master
-
-
-Checkout Master and pull any updates:
-```bash
-   $ git checkout master 
-   $ git pull
-```
-View the list of available branches: 
-```bash
-  $ git branch
-```
-
-Merge your branch:
-```bash
-   $ git merge <feature_yourname>
-```
-
-Commit the merged branches:
-```bash
-  $ git commit
-```
-
-Push the merged branches to the remote:
-```bash
-  $ git push origin master
-```
 
 resolve merge conflicts
+
+## Create your PR
 
 delete your branch:
 ```bash
