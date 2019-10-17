@@ -14,11 +14,14 @@ $ mkdir <folder_name>
 $ cd <folder_name>
 ```
 
-Clone the repo into your new folder:
+Clone the fork into your new folder:
 ```bash
 $ git clone https://github.com/<username>/GithubWorkshop
 
 ```
+![alt text](src/img/clone.png "Clone Repo")
+
+
 
 Go into the git directory:
 ```bash
