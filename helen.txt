@@ -1,0 +1,6 @@
+ Your name: Helen
+ Why you came to the workshop? Learn to use git
+ Is this your first event? no 
+ Favorite ice cream flavor? mint chocolate chip
+ What is the name of the person sitting to the right and left of you? L: Angela, R: Kate
+ Do you want to contribute to open source in the future? ya!
