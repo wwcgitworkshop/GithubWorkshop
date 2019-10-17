@@ -2,6 +2,10 @@
 [Github Cheat Sheet](https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf "Github Cheat Sheet")
 
 
+## Fork the remote respository
+![alt text](src/img/fork.png "Fork Repo")
+
+
 ## Create your local respository
 
 Create a folder for the repository:
@@ -12,7 +16,7 @@ $ cd <folder_name>
 
 Clone the repo into your new folder:
 ```bash
-$ git clone https://github.com/wwcgitworkshop/GithubWorkshop.git
+$ git clone https://github.com/<username>/GithubWorkshop
 
 ```
 
