@@ -128,8 +128,18 @@ Add a new line of text to your_name.txt
 Run a diff on the changes:
 ```bash
    $ git status
-   $ git diff
+   $ git diff origin
 ```
+Stage your changes: 
+```bash
+   $ git add .
+   $ git status
+```
+>**TIP:**<br/>   
+>git add . stages new files and modifications, without deletions<br/> 
+>git add -A stages all changes<br/> 
+>git add -u stages modifications and deletions, without new files<br/> 
+
 
 Commit your changes: 
 ```bash
