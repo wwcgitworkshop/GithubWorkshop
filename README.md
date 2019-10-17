@@ -127,12 +127,12 @@ Run a diff on the changes:
 Commit your changes: 
 ```bash
    $ git commit
-   $ git status
 ```
 
 Push your branch to the remote: 
 ```bash
    $ git push -u origin <feature_yourname>
+   $ git status
 ```
 >**TIP:** You only need the *-u* command if your branch is not already upstream 
 
