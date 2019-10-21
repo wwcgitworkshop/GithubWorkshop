@@ -41,6 +41,7 @@ $ cd GithubWorkshop
 ```
 
 Add 'upstream' repo to list of remotes:
+*This isn't required, but we do it to keep our copy up to date with the remote*
 ```bash
 $ git remote add upstream https://github.com/wwcgitworkshop/GithubWorkshop
 ```
@@ -185,6 +186,14 @@ Pull updates from the remote:
    $ git pull 
 ```
 >**TIP:** *git pull* merges changes from the remote into your local copy. Use *git fetch* if you simply want to download the latest to keep track of what is going on. You will then need to merge to incorporate the updates from *fetch*.
+
+Fetch upstream master and merge with your repo's master branch
+```bash
+$ git fetch upstream
+$ git checkout master
+$ git merge upstream/master
+```
+>**TIP:** If there were any new commits, you might want to *rebase* your development branch. More on that in the next session.
 
 Now merge your changes into master:
 ```bash
