@@ -40,10 +40,17 @@ $ cd GithubWorkshop
 
 ```
 
-Review the remote repository:
+Add 'upstream' repo to list of remotes:
+```bash
+$ git remote add upstream https://github.com/wwcgitworkshop/GithubWorkshop
+```
+
+Verify the new remote named 'upstream':
 ```bash
 $ git remote -v [-v | --verbose]
+
 ```
+
 
 Open the Readme.md in your text editor
 
