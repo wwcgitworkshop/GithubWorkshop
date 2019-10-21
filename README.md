@@ -2,6 +2,16 @@
 [Github Cheat Sheet](https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf "Github Cheat Sheet")
 
 
+## Git Manual
+
+Review help topics:
+
+```bash
+$ git help
+```
+>**TIP:** exit help by simply typing *q*
+
+
 ## Fork the remote respository
 ![alt text](src/img/fork.png "Fork Repo")
 
@@ -38,22 +48,15 @@ $ git remote -v [-v | --verbose]
 Open the Readme.md in your text editor
 
 
-## Git Manual
 
-Review help topics:
 
-```bash
-$ git help
-```
->**TIP:** exit help by simply typing *q*
+## Create and modify a local branch
 
 Review git branch:
 
 ```bash
 $ git help branch
 ```
-
-## Create and modify a local branch
 
 Create a new feature branch:
 ```bash
@@ -85,7 +88,7 @@ Check the status of your changes:
 
 Add your_name.txt to the repo:
 ```bash
-  $ git add . <your_name.txt>
+  $ git add <your_name.txt>
   $ git status
 ```
 >TIP: *git add* stages your changes. You cannot commit your changes until you have first staged them.
@@ -101,9 +104,10 @@ Remove delete_me.txt from your repo:
   $ git status
 ```
 
-```
+
 Run a diff on the changes:
 *good practice is to run a diff before every commit*
+
 ```bash
    $ git diff origin
 ```
