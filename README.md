@@ -2,6 +2,16 @@
 [Github Cheat Sheet](https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf "Github Cheat Sheet")
 
 
+## Git Manual
+
+Review help topics:
+
+```bash
+$ git help
+```
+>**TIP:** exit help by simply typing *q*
+
+
 ## Fork the remote respository
 ![alt text](src/img/fork.png "Fork Repo")
 
@@ -30,30 +40,31 @@ $ cd GithubWorkshop
 
 ```
 
-Review the remote repository:
+Add 'upstream' repo to list of remotes:
+*This isn't required, but we do it to keep our copy up to date with the remote*
+```bash
+$ git remote add upstream https://github.com/wwcgitworkshop/GithubWorkshop
+```
+
+Verify the new remote named 'upstream':
 ```bash
 $ git remote -v [-v | --verbose]
+
 ```
+
 
 Open the Readme.md in your text editor
 
 
-## Git Manual
 
-Review help topics:
 
-```bash
-$ git help
-```
->**TIP:** exit help by simply typing *q*
+## Create and modify a local branch
 
 Review git branch:
 
 ```bash
 $ git help branch
 ```
-
-## Create and modify a local branch
 
 Create a new feature branch:
 ```bash
@@ -85,7 +96,7 @@ Check the status of your changes:
 
 Add your_name.txt to the repo:
 ```bash
-  $ git add . <your_name.txt>
+  $ git add <your_name.txt>
   $ git status
 ```
 >TIP: *git add* stages your changes. You cannot commit your changes until you have first staged them.
@@ -101,9 +112,10 @@ Remove delete_me.txt from your repo:
   $ git status
 ```
 
-```
+
 Run a diff on the changes:
 *good practice is to run a diff before every commit*
+
 ```bash
    $ git diff origin
 ```
@@ -174,6 +186,14 @@ Pull updates from the remote:
    $ git pull 
 ```
 >**TIP:** *git pull* merges changes from the remote into your local copy. Use *git fetch* if you simply want to download the latest to keep track of what is going on. You will then need to merge to incorporate the updates from *fetch*.
+
+Fetch upstream master and merge with your repo's master branch
+```bash
+$ git fetch upstream
+$ git checkout master
+$ git merge upstream/master
+```
+>**TIP:** If there were any new commits, you might want to *rebase* your development branch. More on that in the next session.
 
 Now merge your changes into master:
 ```bash
