@@ -1,0 +1,8 @@
+ Your Name: Erin Fox 
+ Why you came to the workshop? -TO LEARN MORE ABOUT GIT!
+ Is this your first event? -NOPE. 
+ Favorite ice cream flavor? -VANILLA.
+ What is the name of the person sitting to the right and left of you? -DARIA
+ Do you want to contribute to open source in the future? -SURE!
+
+ This is a new line! 
