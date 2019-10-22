@@ -1,0 +1,11 @@
+Daria:
+ Why you came to the workshop?
+ I wanted to check my level of understanding git, learn some basic theory, and meet likeminded people.
+ Is this your first event?
+ Yes
+ Favorite ice cream flavor?
+ Mm... Salted caramel
+ What is the name of the person sitting to the right and left of you?
+ Sarah
+ Do you want to contribute to open source in the future?
+ Yes, sure 
