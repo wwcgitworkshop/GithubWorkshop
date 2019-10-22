@@ -1,0 +1,7 @@
+ Your name: Tatiana
+ Why you came to the workshop? To know more about Git
+ Is this your first event? No
+ Favorite ice cream flavor? lavender
+ What is the name of the person sitting to the right and left of you? None
+ Do you want to contribute to open source in the future? Yes
+ Hello, everyone!
