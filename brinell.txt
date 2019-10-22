@@ -1,0 +1,7 @@
+Your name: Brinell
+ Why you came to the workshop? To learn GIT
+ Is this your first event? Yes
+ Favorite ice cream flavor? Chocolate
+ What is the name of the person sitting to the right and left of you? Jen and Ann 
+ Do you want to contribute to open source in the future? Yes
+ The workshop was very usefull!
