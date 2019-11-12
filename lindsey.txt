@@ -4,3 +4,4 @@ This is my first event.
 Ice cream? I love all flavors.
 Ruth is next to me on the left. No one is on the right. 
 Once I am up to speed, I would love to contribute to open source in the future. 
+Here is my new line of text.
